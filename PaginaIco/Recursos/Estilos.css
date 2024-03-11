@@ -1,0 +1,81 @@
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background-size: 100%;
+    padding: 4em;
+    font-family: serif;
+}
+@font-face {
+    font-family:falta el nombre ;
+    src: url(aqui la ubicacion);
+}
+y la agregamos, recuerda guardar
+@font-face {
+    font-family: ;
+    src: url();
+}
+.text{
+    font-family: 'nombredelafuente';
+    src: url(./Fuentes/);
+}
+.fondoblanco{
+    background-color: rgba(255, 255, 255, 0.965);
+    border-radius: 15px;
+}
+
+.fondogrey{
+    background-color: grey;
+}
+
+.bordeclaro{
+    border: 20px solid rgba(67, 206, 196, 0.477);
+    
+}
+.imagenEstilo{
+    width: 100px ;
+    text-align: center;
+
+}
+.cambiaeltextoparafooter{
+    background-color: black;
+    /* //para la letra */
+    color: rgb(245, 243, 240);
+    /* //alinea el texto */
+    text-align: center;
+    /* //requiero una separacion en padingtop */
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /* hacer redondita las esquinas de arriba, pero cuadrada las de abajo */
+    border-radius: 5px 5px 0px 0px;
+
+}
+.parrafoenfooter{
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'nombredelafuente';
+}
+.titulo{
+    font-size: 35px;
+    font-family: 'tipodeletra';
+}
+.subtitulo{
+    text-align: center;
+    font-family: 'nombredelafuente';
+    /* espaciado sin margen con padding */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* modifica el tamanio de la fuente */
+    font-size: 40px;
+}
+.imagenfondo{
+    background-image: url(./Media/descarga\ \(1\).jpeg);
+    /* quela imagen sea mas amplia y no se repita */
+    padding: 10px;
+    width: 100%;
+    /* que no se repita */
+    background-repeat: no-repeat;
+}
+
+.letradefooter{
+    font-family:  ;
+}
